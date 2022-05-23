@@ -62,7 +62,7 @@ function addMember() {
                 newMember = new Engineer(name, id, email, roleInfo);
             } else if (role === "Intern") {
                 newMember = new Intern(name, id, email, roleInfo);
-            } else {
+            } else if (role === "Manager") {
                 newMember = new Manager(name, id, email, roleInfo);
             }
             employees.push(newMember);
@@ -133,8 +133,8 @@ function addHtml(member) {
             </ul>
             </div>
         </div>`;
-        } else {
-            const officePhone = member.getOfficeNumber();
+        } else if (role === "Manager") {
+            const officePhone = member.getofficeNumber();
             data = `<div class="col-6">
             <div class="card mx-auto mb-3" style="width: 18rem">
             <h5 class="card-header">${name}<br /><br />Manager</h5>
@@ -154,12 +154,6 @@ function addHtml(member) {
             return resolve();
         });
     });
-    
-            
-    
-        
-    
-    
 }
 
 function finishHtml() {
