@@ -2,7 +2,7 @@
 
 ## Video Walkthrough
 
-[](https://drive.google.com/file/d/1ClVi6TfGz1u05WjfSn68Gktuma22WHXE/view?usp=sharing)
+[Click Here](https://drive.google.com/file/d/1ClVi6TfGz1u05WjfSn68Gktuma22WHXE/view?usp=sharing)
 
 ## Description
 
